@@ -1,0 +1,19 @@
+.editMenu {
+  // min-width: 50px;
+  // background-color: rgb(255, 255, 255);
+  padding: 10px;
+  &-controler {
+    // width: 5%;
+    height: 10vh;
+    width: 40px;
+  }
+  &-formPicker {
+    // width: 5%;
+    height: 70vh;
+  }
+  &-previewSize {
+    // width: 5%;
+    height: 20vh;
+    //width: 50px;
+  }
+}

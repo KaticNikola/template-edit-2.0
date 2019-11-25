@@ -1,0 +1,32 @@
+.templatEdit {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  transition: all 1s;
+
+  &-editMenu {
+    
+
+    //height: 100vh;
+    // background: white;
+    //position: fixed;
+    background: rgb(46, 46, 46);
+
+  
+  }
+
+  &-template {
+    background: red;
+    background-image: url(../../assets/img/checklist-3222079_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    // height: 200vh;
+    width: 100%;
+  }
+}
+
+.tablet{
+  width: 700px;
+  margin: 0 auto;
+}
