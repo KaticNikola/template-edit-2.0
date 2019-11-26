@@ -4,7 +4,7 @@ import { Consumer } from '../../../template-edit/template-context/TemplateContex
 import EditFormText from '../forms/EditFormText'
 import EditFormButton from '../forms/EditFormButton'
 
-import './FormPicker.scss'
+//import './FormPicker.scss'
 
 export class FormPicker extends Component {
 	render() {
