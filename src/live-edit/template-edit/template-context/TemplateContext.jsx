@@ -79,6 +79,7 @@ export class Provider extends React.Component {
 
 
 			},
+
 			buttonLeft: {
 				id: 'headerBtnLeft',
 				actionType: 'EDIT_HEADER_BUTTON_LEFT',
@@ -179,6 +180,53 @@ export class Provider extends React.Component {
 				hoverBoxShadowHorizontal: '',
 				hoverBoxShadowVertical: '',
 			},
+		},
+		game:{
+			title: {
+				id: 'gameTitle',
+				//actionType: 'EDIT_HEADER_TITILE',
+				content: "YOUR QUIZ",
+				fontSize: '',
+				fontType: "",
+				fontWeight: "",
+				color: "",
+				textTransform: "",
+				fontStyle: "",
+				textAlign: "",
+				textDecoration: "",
+				lineHeight: "",
+
+				//new
+				letterSpacing: '',
+				marginTop: '',
+				marginLeft: '',
+				marginBottom: '',
+				marginRight: '',
+				paddingTop: '',
+				paddingLeft: '',
+				paddingBottom: '',
+				paddingRight: '',
+				//new advanced
+
+			},
+			description: {
+				id: "gameDescription",
+
+				content: "Description of THe page Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum repellat autem voluptates et, enim numquam.Ipsum repellat autem voluptates et, enim numquam.",
+				fontSize: '' + 'px',
+				fontType: "",
+				fontWeight: "",
+				fontColor: "",
+				textTransform: "",
+				fontStyle: "",
+				textAlign: "",
+				textDecoration: "",
+				lineHeight: "",
+				letterSpacing: '',
+
+
+			},
+
 		},
 
 		offers: {

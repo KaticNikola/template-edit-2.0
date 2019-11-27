@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import EdutMenu from '../edit-menu/EditMenu'
 
-
+import TestGameSection from '../../games/TestGameSection'
 
 import './TemplateEdit.scss'
 
@@ -15,7 +15,7 @@ export default class TemplateEdit extends Component {
                     <EdutMenu/>
                </div>
                <div className="templatEdit-template">
-                    
+                    <TestGameSection/>
                </div>
                
                

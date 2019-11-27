@@ -2,12 +2,12 @@ import React, { Component } from 'react'
 
 
 
-import 'Quiz.scss'
+import './Quiz.scss'
 
 export class quiz extends Component {
     render() {
         return (
-            <div>
+            <div className='quiz'>
                 quiz
             </div>
         )
